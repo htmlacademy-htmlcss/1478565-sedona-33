@@ -50,12 +50,12 @@
     </nav>
     </header>
 
-    <main class="main-container main-inner">
+    <main class="main-container">
       <div class="header-search-hotel container-content">
         <header class="inner-header">
           <h1 class="inner-header-title">Гостиницы Седоны</h1>
           <ol class="breadcrumbs">
-            <li class="breadcrumbs-item breadcrumbs-item-home">
+            <li class="breadcrumbs-item">
               <a class="breadcrumbs-link breadcrumbs-link-home" href="index.html">
                 <svg aria-hidden="true" focusable="false" width="12" height="12" viewBox="0 0 12 12" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path d="M6 .3 0 5.8V12h12V5.8L6 .3ZM11 11H1V6.2l5-4.5 5 4.5V11Z"/>
@@ -78,24 +78,24 @@
                 <legend class="hotel-filter-title">Инфраструктура:</legend>
                 <ul class="hotel-filter-list">
                   <li class="hotel-filter-item">
-                     <label class="control control-infrastructure">
+                     <label class="control-infrastructure">
                       <input class="control-input visually-hidden" type="checkbox" name="swimming-pool" checked>
                       <span class="control-mark"></span>
-                      <span class="control-label">Бассейн</span>
+                      <span>Бассейн</span>
                     </label>
                   </li>
                   <li class="hotel-filter-item">
-                     <label class="control control-infrastructure">
+                     <label class="control-infrastructure">
                       <input class="control-input visually-hidden" type="checkbox" name="parking" checked>
                       <span class="control-mark"></span>
-                      <span class="control-label">Парковка</span>
+                      <span>Парковка</span>
                     </label>
                   </li>
                   <li class="hotel-filter-item">
-                    <label class="control control-infrastructure">
+                    <label class="control-infrastructure">
                       <input class="control-input visually-hidden" type="checkbox" name="wi-fi">
                       <span class="control-mark"></span>
-                      <span class="control-label">Wi-Fi</span>
+                      <span>Wi-Fi</span>
                     </label>
                   </li>
                 </ul>
@@ -105,24 +105,24 @@
                 <legend class="hotel-filter-title">Тип жилья:</legend>
                 <ul class="hotel-filter-list">
                   <li class="hotel-filter-item">
-                    <label class="control control-housing">
+                    <label class="control-housing">
                       <input class="control-input visually-hidden" type="radio" name="house-type" value="hotel" checked>
                       <span class="control-mark"></span>
-                      <span class="control-label">Гостиница</span>
+                      <span>Гостиница</span>
                     </label>
                   </li>
                   <li class="hotel-filter-item">
-                    <label class="control control-housing">
+                    <label class="control-housing">
                       <input class="control-input visually-hidden" type="radio" name="house-type" value="motel">
                       <span class="control-mark"></span>
-                      <span class="control-label">Мотель</span>
+                      <span>Мотель</span>
                     </label>
                   </li>
                   <li class="hotel-filter-item">
-                    <label class="control control-housing">
+                    <label class="control-housing">
                       <input class="control-input visually-hidden" type="radio" name="house-type" value="apartments">
                       <span class="control-mark"></span>
-                      <span class="control-label">Апартаменты</span>
+                      <span>Апартаменты</span>
                     </label>
                   </li>
                 </ul>
@@ -134,11 +134,11 @@
                 <legend class="hotel-filter-title filter-title-price">Стоимость, ₽:</legend>
                 <ul class="range-wrapper-inputs">
                   <li class="range-inputs">
-                    <label class="control label-input-min" for="cost-min">от</label>
+                    <label class="label-input-min" for="cost-min">от</label>
                     <input class="range-input range-input-min" type="number" name="min" id="cost-min" value="0" min="0" max="9000">
                   </li>
                   <li class="range-inputs">
-                    <label class="control label-input-max" for="cost-max">до</label>
+                    <label class="label-input-max" for="cost-max">до</label>
                     <input class="range-input range-input-max" type="number" name="max" id="cost-max" value="9000" min="0" max="9000">
                   </li>
                 </ul>
@@ -197,14 +197,14 @@
       <section class="product-group container-content">
         <h2 class="visually-hidden">Результаты поиска жилья</h2>
         <ul class="product-list">
-          <li class="product-card product-card-content">
+          <li class="product-card">
             <a class="product-card-link product-card-link-img" href="#">
               <img class="product-card-img" src="images/hotel-amara-resort-spa.jpg" width="299" height="206" alt="Часовня Святого Креста, построенная в красных скалах над городом Седона.">
              </a>
             <a class="product-card-link" href="#">
               <h3 class="product-card-title">Amara Resort & Spa</h3>
             </a>
-            <span class="product-card-description">Гостиница</span>
+            <span>Гостиница</span>
             <b class="product-card-price">От 4000 ₽</b>
             <a class="button buttons-product-card button-more" href="#">Подробнее</a>
             <button class="button buttons-product-card button-favorites" type="button">В избранное</button>
@@ -222,7 +222,7 @@
             <a class="product-card-link" href="#">
               <h3 class="product-card-title">Desert Quail Inn</h3>
             </a>
-            <span class="product-card-description">Гостиница</span>
+            <span>Гостиница</span>
             <b class="product-card-price">От 3000 ₽</b>
             <a class="button buttons-product-card button-more" href="#">Подробнее</a>
             <button class="button buttons-product-card button-favorites" type="button">В избранное</button>
@@ -240,7 +240,7 @@
             <a class="product-card-link" href="#">
               <h3 class="product-card-title">Villas at Poco Diablo</h3>
             </a>
-            <span class="product-card-description">Гостиница</span>
+            <span>Гостиница</span>
             <b class="product-card-price">От 2000 ₽</b>
             <a class="button buttons-product-card button-more" href="#">Подробнее</a>
             <button class="button buttons-product-card button-favorites button-is-favorite" type="button">В избранном</button>
@@ -258,7 +258,7 @@
             <a class="product-card-link" href="#">
               <h3 class="product-card-title">GreenTree Inn</h3>
             </a>
-            <span class="product-card-description">Гостиница</span>
+            <span>Гостиница</span>
             <b class="product-card-price">От 3000 ₽</b>
             <a class="button buttons-product-card button-more" href="#">Подробнее</a>
             <button class="button buttons-product-card button-favorites" type="button">В избранное</button>

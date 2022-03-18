@@ -1588,9 +1588,7 @@ body {
 
 /* Modal window */
 
-.modal-container-close {
-  display: none;
-}
+
 
 .modal-container {
   position: fixed;
@@ -1966,4 +1964,8 @@ span.hotel-search-label {
 .form-label-icon {
   position: relative;
   padding-right: 25px;
+}
+
+.modal-container-close {
+  display: none;
 }
