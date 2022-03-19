@@ -1850,9 +1850,12 @@ span.hotel-search-label {
   z-index: 1;
 }
 
-.hotel-search-field:focus-visible:enabled:not(.hotel-search-field-number) {
+/* При активном поле ввода */
+
+.hotel-search-field-active {
   background-color: #ffffff;
   border: 2px solid #000000;
+  outline: none;
 }
 
 .field-caption {
