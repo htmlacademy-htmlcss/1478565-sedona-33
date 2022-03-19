@@ -1566,10 +1566,9 @@ body {
 /* Disabled */
 
 .button-disabled,
-.button:disabled, {
+.button:disabled {
   color: #e5ecf0;
   background-color: #89a3b4;
-  ;
 }
 
 .button-disabled:focus,
@@ -1588,7 +1587,9 @@ body {
 
 /* Modal window */
 
-
+.modal-container-close {
+  display: none;
+}
 
 .modal-container {
   position: fixed;
@@ -1849,14 +1850,9 @@ span.hotel-search-label {
   z-index: 1;
 }
 
-.hotel-search-field:valid {
+.hotel-search-field:focus-visible:enabled:not(.hotel-search-field-number) {
   background-color: #ffffff;
   border: 2px solid #000000;
-}
-
-.hotel-search-field:invalid {
-  background-color: #ffffff;
-  border: 2px solid #ff5757;
 }
 
 .field-caption {
@@ -1924,6 +1920,10 @@ span.hotel-search-label {
   fill: #68a2ca;
 }
 
+.tooltip-toggle:focus-visible svg {
+  fill: #68a2ca;
+}
+
 .tooltip-text {
   background-color: #333333;
   color: #ffffff;
@@ -1966,6 +1966,4 @@ span.hotel-search-label {
   padding-right: 25px;
 }
 
-.modal-container-close {
-  display: none;
-}
+
