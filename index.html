@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <header class="page-header">
+      <header>
       <nav class="navigation container-content">
         <a class="navigation-logo" href="index.html" aria-current="page">
           <img class="page-header-logo" src="images/svg/logo-sedona.svg" width="139" height="70" alt="Логотип Седона.">
@@ -44,17 +44,17 @@
               <span class="favorites-badge">12</span>
             </a>
           </li>
-          <li class="navigation-item navigation-item-button">
-            <a class="button" href="#search-hotel">Хочу сюда!</a>
-          </li>
         </ul>
+        <div class="navigation-item-button">
+          <a class="button navigation-button-search" href="#search-hotel">Хочу сюда!</a>
+        </div>
       </nav>
       </header>
 
-      <main class="main-container main-index">
+      <main class="main-container">
           <section class="index-background-image">
             <h1 class="visually-hidden">Сайт города Седона</h1>
-            <img class="content-img" src="images/svg/welcome-sedona.svg" width="458" height="352" alt="Добро пожаловать в Седону.">
+            <img src="images/svg/welcome-sedona.svg" width="458" height="352" alt="Добро пожаловать в Седону.">
           </section>
 
        <section class="advantages">
@@ -179,7 +179,10 @@
             </li>
           </ul>
 
-          <a class="phone-link" href="tel:+78128121212">+7 (812) 812-12-12</a>
+          <div class="wrapper-phone-link">
+            <a class="phone-link" href="tel:+78128121212">+7 (812) 812-12-12</a>
+          </div>
+
 
           <div class="logo-html-wrapper">
             <a class="html-link" href="https://htmlacademy.ru/">
