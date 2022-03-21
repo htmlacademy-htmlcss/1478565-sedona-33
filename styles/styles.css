@@ -238,7 +238,7 @@ body {
   background-image: url("../images/svg/background-divider.svg"),
     url("../images/index-background.jpg");
   background-repeat: no-repeat, no-repeat;
-  background-size: contain, 100% auto;
+  background-size: contain, cover;
   background-position: bottom, top;
   padding: 51px 70px 78px;
   text-align: center;
